@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Choquei - Galeria</title>
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="logochoquei.png" alt="Logo da Choquei">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicial</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+        margin-top: 5%;
+        
+      }
+  
+      .item {
+        border-radius: 3%;
+        border: 1px solid darkgray;
+        padding: 20px;
+        background-color: darkgray;
+      }
+
+      img{
+        height: 60%;
+        width: 70%;
+        margin-top: 15%;
+        border-radius: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        <img src="letras.png" alt="letras">
+        <p>🚨CURIOSIDADE: Nenhuma, palavra da língua portuguesa, começa com N.</p>
+      </div>
+      <div class="item">
+        <img src="jorg.png" alt="matias">
+        <p>🚨VEJA: Banner do primeiro show de Jorge e Mateus em maio de 2005, por 10 reais.</p>
+      </div>
+      <div class="item">
+        <img src="ice.png" alt="gelopicante">
+        <p>🚨VEJA: Ice Spice posta vídeo de brasileiros em seu story devido a semelhança da cantora com a jovem que aparece nas imagens.
+        </p>
+      </div>
+      <div class="item">
+        <img src="util.png" alt="naoehutil">
+        <p>🚨ATENÇÃO: Estamos no último dia de maio.</p>
+      </div>
+      <div class="item">
+        <img src="oilana.png" alt="evil">
+        <p>🚨VEJA: Após vazar na mídia que Lana Del Rey está em Manaus, a prefeitura da cidade fez um tweet: “Oi, Lana?”</p>
+      </div>
+      <div class="item">
+        <img src="lasagnadelrey.png" alt="Imagem 6">
+        <p>🚨VEJA: Morador de Manaus diz ter visto Lana Del Rey em uma conveniência comprando café.</p>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="pé">
+    <p>&copy; 2023 Xoquei. Todos os direitos reservados.</p>
+    <style>
+      p{
+        margin-top: 15%;
+      }
+    </style>
+  </footer>
+</body>
+</html>
